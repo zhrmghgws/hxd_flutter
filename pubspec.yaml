@@ -39,7 +39,18 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+    - images/tab_item_normal_1.png
+    - images/tab_item_normal_2.png
+    - images/tab_item_normal_3.png
+    - images/tab_item_normal_4.png
+    - images/account_calendar.png
+    - images/account_avatar.png
+    - images/amount_right_dir.png
+    - images/tabbar_home.gif
+    - images/tabbar_loan.gif
+    - images/tabbar_account.gif
+    - images/tabbar_discovery.gif
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
