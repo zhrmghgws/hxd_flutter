@@ -21,12 +21,15 @@ class _HXBidListPageState extends State<HXBidListPage> {
             ),
           ),
           title: Text(""),
-          actions: <Widget>[
-            IconButton(
-              icon: Image.asset("images/account_calendar.png"),
-              onPressed: ()=>{print("回款日历")},
-            )
-          ],
+          actions: [
+          Center(
+          child: Padding(
+            padding: const EdgeInsets.only(right: 15),
+            child: Text("回款日历",
+            style: TextStyle(fontSize: 20,color: Colors.white),),
+          ),
+        )
+        ],
           bottom: TabBar(
             labelPadding:EdgeInsets.all(10),
             indicatorColor: Colors.white,
